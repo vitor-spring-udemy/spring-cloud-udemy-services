@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service-fornecedor/service-fornecedor.iml" filepath="$PROJECT_DIR$/service-fornecedor/service-fornecedor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-loja/service-loja.iml" filepath="$PROJECT_DIR$/service-loja/service-loja.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-transportador/service-transportador.iml" filepath="$PROJECT_DIR$/service-transportador/service-transportador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-udemy-services.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-udemy-services.iml" />
+    </modules>
+  </component>
+</project>
