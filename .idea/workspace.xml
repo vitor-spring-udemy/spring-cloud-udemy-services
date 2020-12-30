@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5df478a3-a585-4444-a3ba-af2bd4b3d0e2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -21,7 +32,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/service-loja/src/main/java/br/com/udemy/springcloud/serviceloja" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service-transportador/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.udemy.springcloud.serviceloja.service.impl" />
+      <recent name="br.com.udemy.springcloud.serviceloja.entity" />
+      <recent name="br.com.udemy.springcloud.serviceloja.service" />
+      <recent name="br.com.udemy.springcloud.serviceloja.controller.form" />
+      <recent name="br.com.udemy.springcloud.serviceloja.controller.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ServiceLojaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.udemy.springcloud.serviceloja.ServiceLojaApplication" />
+      <module name="service-loja" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceLojaApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="WindowStateProjectService">
@@ -29,21 +73,77 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="187" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1609162301625" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609162478805">
+    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609162853713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609162478805" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609162525638">
+    <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609162853713" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1609252007947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609162525638" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1609162495615">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609252007947" />
+    <state x="412" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609162824766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609162495615" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609162499464">
+    <state x="412" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1609162824766" />
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609254895112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609162499464" />
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1609254895112" />
+    <state x="438" y="66" width="862" height="595" key="#xdebugger.evaluate" timestamp="1609255925101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="66" width="862" height="595" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1609255925101" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609251146197">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609251146197" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1609340159810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1609254373877">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609254373877" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1609254011002">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1609254011002" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1609254381026">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1609254381026" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609256559218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609256559218" />
   </component>
 </project>
