@@ -13,7 +13,7 @@ public class CompraDTO {
     private String enderecoDestino;
     private String estadoDestino;
     private LocalDate previsaoParaEntrega;
-    private CompraState state;
+    private CompraState statusPedido;
 
 
     public CompraDTO(CompraEntity entity) {
@@ -21,6 +21,6 @@ public class CompraDTO {
         enderecoDestino = entity.getEnderecoDestino();
         estadoDestino = entity.getEstadoDestino();
         previsaoParaEntrega = getPrevisaoParaEntrega();
-        state = entity.getState();
+        statusPedido = entity.getState();
     }
 }

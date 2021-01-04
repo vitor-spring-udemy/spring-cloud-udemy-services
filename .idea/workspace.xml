@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.com.udemy.springcloud.serviceloja.service.impl" />
-      <recent name="br.com.udemy.springcloud.serviceloja.entity" />
-      <recent name="br.com.udemy.springcloud.serviceloja.service" />
-      <recent name="br.com.udemy.springcloud.serviceloja.controller.form" />
-      <recent name="br.com.udemy.springcloud.serviceloja.controller.dto" />
+      <recent name="br.com.udemy.springcloud.servicefornecedor.entity" />
+      <recent name="br.com.udemy.springcloud.servicefornecedor.service.impl" />
+      <recent name="br.com.udemy.springcloud.servicefornecedor.repository" />
+      <recent name="br.com.udemy.springcloud.servicefornecedor.controller.form" />
+      <recent name="br.com.udemy.springcloud.servicefornecedor.controller.dto" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -53,7 +54,14 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ServiceFornecedorApplication">
+    <configuration name="ServiceFornecedorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.udemy.springcloud.servicefornecedor.ServiceFornecedorApplication" />
+      <module name="service-fornecedor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceLojaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.udemy.springcloud.serviceloja.ServiceLojaApplication" />
       <module name="service-loja" />
@@ -63,11 +71,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServiceFornecedorApplication" />
         <item itemvalue="Application.ServiceLojaApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="450" y="187" key="#Notifications" timestamp="1609162301625">
       <screen x="0" y="0" width="1366" height="728" />
@@ -77,18 +89,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609162853713" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1609252007947">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1609341263410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609252007947" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609341263410" />
     <state x="412" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609162824766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="160" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1609162824766" />
-    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609254895112">
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609759052927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1609254895112" />
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1609759052927" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609342300234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609342300234" />
     <state x="438" y="66" width="862" height="595" key="#xdebugger.evaluate" timestamp="1609255925101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -97,38 +113,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609251146197" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1609340159810">
+    <state width="1323" height="292" key="GridCell.Tab.0.bottom" timestamp="1609761745383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1609340159810">
+    <state width="1323" height="292" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609761745383" />
+    <state width="1323" height="292" key="GridCell.Tab.0.center" timestamp="1609761745383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1609340159810">
+    <state width="1323" height="292" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609761745383" />
+    <state width="1323" height="292" key="GridCell.Tab.0.left" timestamp="1609761745382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1609340159810">
+    <state width="1323" height="292" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609761745382" />
+    <state width="1323" height="292" key="GridCell.Tab.0.right" timestamp="1609761745383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1609340159810">
+    <state width="1323" height="292" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609761745383" />
+    <state width="1323" height="367" key="GridCell.Tab.1.bottom" timestamp="1609761745376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1609340159810">
+    <state width="1323" height="367" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609761745376" />
+    <state width="1323" height="367" key="GridCell.Tab.1.center" timestamp="1609761745376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1609340159810">
+    <state width="1323" height="367" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609761745376" />
+    <state width="1323" height="367" key="GridCell.Tab.1.left" timestamp="1609761745376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1609340159810">
+    <state width="1323" height="367" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609761745376" />
+    <state width="1323" height="367" key="GridCell.Tab.1.right" timestamp="1609761745376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609340159810" />
+    <state width="1323" height="367" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609761745376" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1609254373877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

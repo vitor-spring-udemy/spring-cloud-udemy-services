@@ -4,12 +4,8 @@ import br.com.udemy.springcloud.serviceloja.controller.form.CompraForm;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.UUID;
 
 @Entity
 @Getter
@@ -22,6 +18,7 @@ public class CompraEntity {
     private String enderecoDestino;
     private String estadoDestino;
     private LocalDate previsaoParaEntrega;
+    @Enumerated(EnumType.STRING)
     private CompraState state;
 
     public CompraEntity(CompraForm formCompra) {

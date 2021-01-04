@@ -35,7 +35,7 @@ public class CompraServiceImpl implements CompraService {
             return new CompraDTO(entityOpt.get());
 
         }
-        throw new NotFoundException(String.format("Pedido %s não encontrado", idPedido));
+        return null;
     }
 
 }
